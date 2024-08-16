@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar*/
+
+.logoinicio{
+    width: 50%;
+    height: 100;
+}
+
+body{
+    background-color: rgb(34, 37, 70);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*se supone que el fondo del body fuera azul oscuro pero no sé por qué no se cambia*/
+/*tampoco el font size no se me cambia*/
+
+/*primera section*/
+.titulo{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: kanit;
+    color: rgb(43, 194, 194);
+}
+
+.primerparrafo{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: kanit;
+    color: rgb(102, 196, 196);
+}
+
+.primeraoracion{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: kanit;
+    color: rgb(102, 196, 196);
+}
+
+main{
+    border-radius: 20px;
+    border: rgb(0, 146, 156);
+    border-style: dotted;
+    margin: 100px;
+    padding: 30px;
+    background-color: rgb(27, 44, 90);
+}
+
+/*segunda section*/
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.primeraimagen{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 35%;
+    border-radius: 20px;
+}
+
+.segundaimagen{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 35%;
+    border-radius: 20px;
+}
+
+.subtitulos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+}
+
+.subtitulo1{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    font-family: kanit;
+    color: rgb(43, 194, 194);
+}
+
+.subtitulo2{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    font-family: kanit;
+    color: rgb(43, 194, 194);
+}
+
+.textos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.segundoparrafo{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    font-family: kanit;
+    color: rgb(102, 196, 196);
+}
+
+.tercerparrafo{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    font-family: kanit;
+    color: rgb(102, 196, 196);
+}
+
+/*opiniones*/
+
+.titulopinion{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: kanit;
+    color: rgb(43, 194, 194);
+    margin: 100px;
+}
+
+.comentario{
+    width: 100px;
+    height: 100px;
+}
+
+.fotopinion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+.fotopinion1{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-right: 135%;
+}
+
+.fotopinion2{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-right: 50%;
+    margin-left: 50%;
+}
+
+.fotopinion3{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-left: 135%;
+}
+
+.opinion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    text-align: center;
+    font-family: kanit;
+    color: rgb(102, 196, 196);
+}
+
+.opinion1{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin: 20px;
+}
+
+.opinion2{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin: 20px;
+}
+
+.opinion3{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin: 20px;
+}
+
+.iconousuario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+.usuario{
+    width: 100px;
+    height: 100px;
+}
+
+.iconousuario1{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-right: 135%;
+}
+
+.iconousuario2{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-right: 50%;
+    margin-left: 50%;
+}
+
+.iconousuario3{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-left: 135%;
+}
+
+.alumnas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    text-align: center;
+    font-family: kanit;
+    color: rgb(102, 196, 196);
+}
+
+.alumna1{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-right: 200%;
+    margin-top: 20%;
+}
+
+.alumna2{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-right: 100%;
+    margin-left: 100%;
+    margin-top: 20%;
+}
+
+.alumna3{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-left: 200%;
+    margin-top: 20%;
+}
+
+/*ubicacion*/
+
+.titulodirecciones{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: kanit;
+    color: rgb(43, 194, 194);
+    margin-top: 20%;
+}
+
+.direcciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+.direccion1{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-right: 60%;
+    font-family: kanit;
+    color: rgb(43, 194, 194);
+}
+
+.direccion2{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-left: 60%;
+    font-family: kanit;
+    color: rgb(43, 194, 194);
+}
+
+.mapas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+.mapa1{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-right: 20%;
+}
+
+.mapa2{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-left: 20%;
+}
+
+/*precios*/
+
+.precios{
+    display: flex;
+}
+
+.cardprecio1{
+    display: flex; 
+    flex-direction: row; 
+    border-radius: 16px  16px 16px 16px;
+    width: 380px;
+    box-shadow: 2px 7px 13px 0px rgba(0,0,0,0.2);
+    overflow: hidden; 
+    border-color: #000000;
+    margin: 10%;
+}
+
+.cardprecio2{
+    display: flex; 
+    flex-direction: row; 
+    border-radius: 16px  16px 16px 16px;
+    width: 380px;
+    box-shadow: 2px 7px 13px 0px rgba(0,0,0,0.2);
+    overflow: hidden; 
+    border-color: #000000;
+    margin: 10%;
+}
+
+.cardprecio3{
+    display: flex; 
+    flex-direction: row; 
+    border-radius: 16px  16px 16px 16px;
+    width: 380px;
+    box-shadow: 2px 7px 13px 0px rgba(0,0,0,0.2);
+    overflow: hidden; 
+    border-color: #000000;
+    margin: 10%;
+}
+
+.cardprecio1{
+    background-color: #fffcfc;
+    flex-grow: 1;
+    padding: 24px; 
+}
+
+.precio1{
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0px; 
+    padding: 0px; 
+}
+
+.cardprecio2{
+    background-color: #fffcfc;
+    flex-grow: 1;
+    padding: 24px; 
+}
+
+.precio2{
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0px; 
+    padding: 0px; 
+}
+
+.cardprecio2{
+    background-color: #fffcfc;
+    flex-grow: 1;
+    padding: 24px; 
+}
+
+.precio3{
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0px; 
+    padding: 0px; 
+}
+
+/*footer*/
+
+.footerlogo{
+    width: 30px;
+    margin: 10%;
+}
